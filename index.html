@@ -4,20 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ART للترجمة والاستشارات | ART Translation & Consulting</title>
-    <!-- خط IBM Plex Sans العربي والإنجليزي -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- مكتبة الأيقونات FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-        :root {
-            --bg-color: #04352F;
-            --btn-bg: #D4A770;
-            --btn-bg-hover: #dfba8b;
-            --btn-text: #452F14;
-            --page-text: #D6A467;
-            --title-color: #D4A061;
-        }
-
         * {
             margin: 0;
             padding: 0;
@@ -26,8 +17,8 @@
         }
 
         body {
-            background-color: var(--bg-color);
-            color: var(--page-text);
+            background-color: #04352F;
+            color: #D6A467;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
@@ -42,7 +33,6 @@
             text-align: center;
         }
 
-        /* منطقة الشعار والعنوان */
         .profile-header {
             margin-bottom: 32px;
         }
@@ -53,18 +43,17 @@
             margin: 0 auto 18px;
             border-radius: 50%;
             background-color: rgba(212, 167, 112, 0.08);
-            border: 2.5px solid var(--title-color);
+            border: 2.5px solid #D4A061;
             display: flex;
             align-items: center;
             justify-content: center;
             box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
-            overflow: hidden;
         }
 
         .logo-circle span {
             font-size: 2rem;
             font-weight: 700;
-            color: var(--title-color);
+            color: #D4A061;
             letter-spacing: 1.5px;
         }
 
@@ -72,27 +61,25 @@
             font-size: 1.6rem;
             font-weight: 700;
             margin-bottom: 6px;
-            color: var(--title-color);
+            color: #D4A061;
         }
 
         .brand-subtitle {
             font-size: 0.95rem;
             font-weight: 600;
-            color: var(--page-text);
+            color: #D6A467;
             letter-spacing: 0.5px;
             margin-bottom: 12px;
-            opacity: 0.9;
         }
 
         .brand-bio {
             font-size: 0.92rem;
-            color: var(--page-text);
+            color: #D6A467;
             line-height: 1.65;
             max-width: 92%;
             margin: 0 auto;
         }
 
-        /* قائمة الأزرار */
         .links-list {
             display: flex;
             flex-direction: column;
@@ -104,17 +91,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            background-color: var(--btn-bg);
+            background-color: #D4A770;
             padding: 15px 20px;
             border-radius: 14px;
-            color: var(--btn-text);
-            text-decoration: none;
-            font-size: 1.05rem;
-            font-weight: 700;
-            transition: all 0.22s ease;
-            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.22);
-        }
-
-        .link-btn:hover {
-            transform: translateY(-3px);
-            background-color: var(--btn-bg-hover);
+            color: #
